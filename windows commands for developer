@@ -1,0 +1,57 @@
+📂 Navigation
+cd                  :: shows current directory
+cd folder_name      :: goes inside a folder
+cd ..               :: goes back one folder
+cd D:\MyApp         :: directly jumps to a specific path
+D:                  :: switches to D drive
+E:                  :: switches to E drive
+dir                 :: lists all files and folders
+cls                 :: clears the terminal screen
+
+
+📁 Folder & File Management
+mkdir MyApp         :: creates a new folder
+rmdir MyApp         :: deletes an empty folder
+rmdir /s MyApp      :: deletes a folder with all files inside
+type nul > app.py   :: creates an empty file
+del app.py          :: deletes a file
+rename app.py main.py :: renames a file
+move app.py backup\ :: moves file to another folder
+copy app.py test.py :: copies a file
+
+
+📄 View & Edit Files
+type main.py        :: shows full content of a file
+type main.py | more :: shows file content page by page
+notepad main.py    :: opens file for editing
+find "print" main.py :: searches word inside a file
+
+
+🧠 History & Utilities
+doskey /history     :: shows previously typed commands
+tree /f             :: shows folder structure as a tree
+where python        :: shows python installation path
+
+
+🐍 PYTHON COMMANDS
+python              :: opens python interactive mode
+python main.py      :: runs a python file
+pip install requests :: installs a python package
+
+
+🧪 VIRTUAL ENVIRONMENT (venv)
+Create venv
+python -m venv venv :: creates a virtual environment
+
+Activate venv
+Command Prompt
+venv\Scripts\activate :: activates venv in CMD
+
+PowerShell
+.\venv\Scripts\Activate.ps1 :: activates venv in PowerShell
+
+Deactivate venv
+deactivate          :: exits virtual environment
+
+Delete venv
+rmdir /s venv       :: deletes virtual environment folder
